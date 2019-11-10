@@ -1,0 +1,22 @@
+#main {
+  min-height: calc(100% - 61px - 25px);
+  margin: 0 auto -25px;
+}
+#footer,
+.push {
+  height: 25px;
+}
+body {
+  background-color: #2f3136;
+}
+
+p {
+
+}
+
+body{
+    /* hide screen until load */
+    opacity: 0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s; /* Safari */
+}
